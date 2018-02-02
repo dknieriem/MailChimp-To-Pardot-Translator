@@ -1,0 +1,36 @@
+[
+{
+    "id": "edit",
+    "children":
+    [
+        {
+            "id": "text",
+            "children":
+            [
+                { "caption": "MailChimp to Pardot", "command": "mail_chimp_to_pardot" }
+            ]
+        }
+    ]  
+},
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children":
+        [
+          {
+                "command": "open_file",
+                "args": { "file": "${packages}/mailchimp-to-pardot/MailChimpToPardot.sublime-settings" },
+                "caption": "MailChimp to Pardot Settings - Default"
+          }
+        ]
+      }
+    ]
+  }
+]

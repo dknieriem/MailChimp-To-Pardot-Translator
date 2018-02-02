@@ -1,0 +1,20 @@
+{
+    "replacements":
+    [
+        ["*|MC:DATE|*", "%%current_month_MM%%/%%current_day_DD%%/%%current_year_YYYY%%"],
+        ["*|MC:SUBJECT|*", "%%subject%%"],
+        ["*|URL:EMAIL|*", "%%email%%"],
+        ["*|ARCHIVE|*", "%%view_online%%"],
+        ["*|CURRENT_YEAR|*", "%%current_year_YYYY%%"],
+        ["*|LIST:COMPANY|*", "<!-- Your Company Name Here -->"],
+        ["*|LIST:DESCRIPTION|*", "<!-- Insert List Description Here -->"],
+        ["*|UPDATE_PROFILE|*", "%%email_preference_center%%"],
+        ["*|UNSUB|*", "%%unsubscribe%%"],
+        ["*|FORWARD|*", "%%addthis_url_email%%"],
+        ["*|MC_PREVIEW_TEXT|*", "<!-- Insert Preheader Text Here -->"],
+        ["<!--*|IF:MC_PREVIEW_TEXT|*-->", ""],
+        ["<!--*|END:IF|*-->", ""],
+        ["*|IFNOT:ARCHIVE_PAGE|*", ""],
+        ["*|END:IF|*", ""]
+    ]
+}

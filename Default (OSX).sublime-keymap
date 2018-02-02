@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+super+x"], "command": "mail_chimp_to_pardot" }
+]
