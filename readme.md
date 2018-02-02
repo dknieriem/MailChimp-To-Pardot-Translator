@@ -4,7 +4,8 @@ MailChimp to Pardot Syntax Translator
 Installation
 ---
 
-* [Download](https://github.com/dknieriem/MailChimp-To-Pardot-Translator/archive/master.zip) and put it in your `Packages` folder
+This plugin can be installed one of two ways:
+* [Download](https://github.com/dknieriem/MailChimp-To-Pardot-Translator/archive/master.zip) and put it in your `Packages` folder OR
 * Clone this repo in your `Packages` folder: `git clone git://github.com/dknieriem/MailChimp-To-Pardot-Translator.git`
 
 Usage
